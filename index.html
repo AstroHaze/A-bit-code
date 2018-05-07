@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en" class="no-js" prefix="og: https://ogp.me/ns#">
+<head>
+<!-- COMMON TAGS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Changes IE navigation buttons color when site is Pinned Tab -->
+    <meta name="msapplication-navbutton-color" content="#0D79F2" />
+<!-- Changes Chrome navigation buttons color when site is Pinned Tab -->
+    <meta name="theme-color" content="#0D79F2">
+<!-- Allows site to be added to iOS home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+<!-- Changes iOS status bar color when site is launched from iOS home screen -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0D79F2">
+ <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Alessandro Conza - Web designer, UI/UX designer">
+    <meta itemprop="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis ante ac ipsum luctus elementum in vitae augue." />
+<!-- Other Meta -->
+    <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis ante ac ipsum luctus elementum in vitae augue.">
+    <meta itemprop="datePublished" content="2017-12-05" id="date">
+    <meta name="author" content="Alessandro Conza">
+<!-- Open Graph general (Facebook, Pinterest & Google+ & Twitter) -->
+    <meta name="og:title" content="Alessandro Conza - Web designer, UI/UX designer">
+    <meta name="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis ante ac ipsum luctus elementum in vitae augue." />
+    <meta name="og:url" content="https://www.conzadev.it">
+    <meta name="og:site_name" content="Alessandro Conza - Web designer, UI designer, Freelance">
+    <meta name="og:locale" content="it_IT">
+    <meta name="og:type" content="website">
+    <meta property="og:image" content="/logo.png">
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Alessandro Conza - Web designer, UI/UX designer"/>
+    <meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis ante ac ipsum luctus elementum in vitae augue.">
+    <meta name="twitter:url" content="https://www.conzadev.it">
+    <meta name="twitter:site" content="@alex_conza" />
+    <meta name="twitter:creator" content="@alex_conza" />
+    <meta name="twitter:image" content="/logo.png">
+<!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Chewy|Concert+One" rel="stylesheet">
+<!-- Css stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+<!-- Foundation cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-float.min.css" rel="stylesheet">
+<!-- Javascript effect page and library jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous" ></script>
+    <!-- Javascript text home page effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.2.0/typeit.min.js"></script>
+    <!-- Javascript scroll library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js"></script>
+    
+    <script>
+//controll scroll page 
+        $(function() { 
+            $.scrollify({
+            section : ".scroll",
+            easing: "easeOutExpo",
+            scrollSpeed: 1000,
+            touchScroll:false,
+            });
+//effect typeography home
+            new TypeIt('.type-it', { 
+                strings: ["phasellus", "interdum", "interaction", "malesuada","sapien", ],
+                speed: 100,
+                breakLines: false,
+                autoStart: true,
+                loop: true,
+                pause: 1200
+           });
+// foundation JS initialize
+           $(document).foundation(); 
+        });
+    </script>
+</head>
+<body>
+    <header>
+<!-- Home Page */
+//////////////////////////////////// -->
+        <div id="home" class="scroll">
+            <div class="grid-container">
+                <div class="medium-10">
+                    <h1>
+                        Proin aliquet <strong>maximus</strong> <br>
+                        ultrics vel odio 
+                    </h1>     
+
+                    <h2>
+                        Vivamus enim sem, vulputate non finibus ut <br>
+                        Vestibulum id <span class="type-it"></span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+<!-- Services Page */
+//////////////////////////////////// -->
+        <div id="servicePage" class="scroll">
+            <div class="grid-container">
+                <div class="medium-10">
+                    <div id="serviceList">
+                        <ul>
+                            <li id="digital"><a href="digital.html"><strong>Pellent</strong></a></li>
+                            <li id="creative"><a href="#"><strong>Fusce</strong></a></li>
+                            <li id="advisory"><a href="#"><strong>Nam</strong></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skillPage" class="scroll">
+            <div class="medium-10">
+                <h3>
+                    Morbi dapibus nisi neque, ut lobortis ipsum <br>
+                    In molestie ultricies vehicula. Sed massa justo, euismod.
+                </h3>
+<!-- only desktop and tablet-->
+            <div id="wrapperContent">
+                <div id="wrapperAccording">
+                    <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500" id="deeplinked-accordion">
+        
+                    <!-- UI/UX design according-->
+                        <li class="accordion-item is-active" data-accordion-item>
+                            <a href="#design" class="accordion-title">UI / UX Design</a>
+                            <div class="accordion-content" data-tab-content id="design">
+                                    Simplifying complicated concepts. Ideation, <strong>prototyping</strong>, <strong>sketching</strong>, <strong>wireframing</strong>  
+                                    Information architecture, <strong>interface</strong>,                                          
+                                    interaction &amp; visual design.                                                                            
+                                    Concept/prototype testing, <strong>usability testing</strong>, iteration.
+                            </div>
+                        </li>
+
+                    <!-- Front-end developer according-->
+                        <li class="accordion-item" data-accordion-item>
+                            <a href="#front-end" class="accordion-title"> Front-end Develop</a>
+                            <div class="accordion-content" data-tab-content id="front-end">
+                                    Creating clear code in 
+                                    <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>Javascript</strong>,
+                                    <strong>Jquery</strong> and libraries.
+                                    Exploring different <strong>framework</strong> as <strong>Bootstrap</strong>, <strong>Foundation</strong>, <strong>Materialize</strong>.
+                                    I Using the CMS like <strong>WordPress</strong>, <strong>WooCommerce</strong>, <strong>Grav</strong>.
+                            </div>
+                        </li>
+
+                    <!-- Design researching according-->
+                        <li class="accordion-item" data-accordion-item>
+                            <a href="#researcher" class="accordion-title">Design Researcher</a>
+                            <div class="accordion-content" data-tab-content id="researcher">
+                                    Discovering user motivations
+                                    Competitive <strong>analysis</strong>, <br>
+                                   <strong> user research</strong>
+                                    Unmoderated &amp; moderated <strong>usability studies</strong>, surveys &amp; interviews.
+                            </div>
+                        </li>
+
+                    <!-- Tools according-->
+                        <li class="accordion-item" data-accordion-item>
+                            <a href="#Tools" class="accordion-title">Tools</a>
+                            <div class="accordion-content" data-tab-content id="Tools">
+                                
+                                    <strong>Graphics</strong>:<br>
+                                     <strong>Photoshop</strong>, <strong>Illustrator</strong>, <strong>Figma</strong>, <strong>Affinity Design</strong> <strong>Affinity Photo</strong>
+                                <br><br>
+                                    <strong>Developer</strong>:<br>
+                                     <strong>Atom</strong>, <strong>Dreamweaver</strong>, <strong>Brackets</strong>, <strong>Visual Studio</strong> , <strong>Scratch</strong>.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <img src="css/img/pcStick.jpg">
+<!--only mobile-->
+                <button class="hollow button" href="#">see more</button>
+
+                </div>
+            </div>
+        </div>
+
+<!-- No time explain Page */
+//////////////////////////////////// -->
+        <div id="timePage" class="scroll">
+            <div class="grid-container">
+                <div class="medium-10">
+                    <div class="cardContainer">
+                       <img src="css/img/hello.gif"></img>
+                    <br>
+                        <h2>No time to explain, hop on.</h2>
+
+                        <button class="hollow button" href="#"><p>lacinia</p></button>
+
+                        <button class="hollow button" href="#"><p>sagittis</p></button>
+
+                        <button class="hollow button" href="#"><p>tincidunt</p></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+<!-- Process Page */
+//////////////////////////////////// -->
+        <div id="process" class="scroll">
+            <div class="grid-container">
+                <div class="medium-10">
+
+                    <div id="wrapperProcessText">                   
+                        <p class="processText">
+                            Listening, research, detail and time
+                            are our core values, to accompany you 
+                            from the first meeting until the end of the 
+                            realization of your idea, and if you want it even
+                            after. Quality, simplicity, functionality, modernity, 
+                            cleanliness and minimalism are the keys to success.  
+                        </p>
+
+                        
+                        <p class="processText">
+                            With me, you will have always a loyal partner
+                            ready to give you willingness and competence
+                            to solve any issues you may encounter on your
+                            path. The trust, which is the highest value,
+                            and we that will never stop work well for the
+                            realization of your project.  
+                        </p>
+
+                        <button class="hollow button" href="#">see more</button>
+                    </div>     
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script> 
+</body>
